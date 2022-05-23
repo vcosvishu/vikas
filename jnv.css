@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%; 
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(jnvblp.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.navbar{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.pic{
+    
+    padding-left: -160px;
+    float: right;
+    padding-top: 400px;
+    
+}
+
+
+.menu{
+    width: 400px;
+    float: left; 
+    height: 70px;
+    font-style: oblique;
+}
+
+ul{
+    box-sizing: content-box;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+
+
+
+
+#A
+{
+    border: 4px solid green;
+    width: 98px;
+    padding-left: 8px;
+
+}
+
+#B
+{
+    border: 4px solid green;
+    width: 115px;
+    padding-left: 8px;
+    
+}
+
+#C{
+    border: 4px solid green;
+    width: 169px;
+    padding-left: 8px;
+}
+
+#D{
+    border: 4px solid green;
+    width: 119px;
+    padding-left: 8px;
+
+}
+
+#E{
+    border: 4px solid green;
+    width: 168px;
+    padding-left: 8px;
+}
+
+.school{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.tittle{
+    position: absolute;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tittle h1{
+    color: red;
+    font-size: 44px;
+  
+    
+   
+
+    text-shadow: 9px 9px 7px blue;
+    
+   
+    
+}
+h2::first-letter{
+    color:blue;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Water Brush', cursive;
+    font-size:35px;
+    color:white;
+    text-shadow: 10px 10px 2px black;
+}
